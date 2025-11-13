@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editkaro.in | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+  
+  <header>
+    <div class="logo">🎬 Editkaro<span>.in</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="home" class="hero">
+    <h1>Creative Video Editing Solutions</h1>
+    <p>Transforming your ideas into visually stunning stories.</p>
+    <a href="#categories" class="btn">Explore Work</a>
+  </section>
+
+  
+  <section id="categories">
+    <h2>Our Work</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="short">Short Videos</button>
+      <button class="filter-btn" data-filter="long">Long Form</button>
+      <button class="filter-btn" data-filter="gaming">Gaming</button>
+      <button class="filter-btn" data-filter="ads">Ads</button>
+    </div>
+
+    <div class="video-gallery">
+      <div class="video-card" data-category="short">
+        <video src="videos/short1.mp4" muted loop></video>
+        <h3>Short Form Edit</h3>
+      </div>
+      <div class="video-card" data-category="long">
+        <video src="videos/long1.mp4" muted loop></video>
+        <h3>Long Form Project</h3>
+      </div>
+      <div class="video-card" data-category="gaming">
+        <video src="videos/gaming1.mp4" muted loop></video>
+        <h3>Gaming Highlight</h3>
+      </div>
+      <div class="video-card" data-category="ads">
+        <video src="videos/ads1.mp4" muted loop></video>
+        <h3>Brand Advertisement</h3>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="about">
+    <h2>About Editkaro.in</h2>
+    <p>
+      We are a creative video editing and social media marketing agency that brings stories to life.
+      Our mission is to help brands, creators, and businesses shine through stunning visuals.
+    </p>
+  </section>
+
+  
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Editkaro.in</p>
+  </footer>
+
+ <script defer src="script.js"></script>
+</body>
+</html>
